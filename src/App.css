@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .App-logo {
@@ -35,4 +38,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.high {
+  color: green;
+}
+.mid {
+  color: yellow;
+}
+
+.low {
+  color: red;
+}
+.available-letter{
+  padding: 20px;
+}
+.crossed {
+  text-decoration: line-through;
+  color: grey;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.letter {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+.msg{
+  color: red;
 }
